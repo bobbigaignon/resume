@@ -1,24 +1,34 @@
 body {
 	background: #2a2a2a url(../img/background.png);
+	font-family: Gabriela;
 	color: #eee;
 }
 
-.jumbotron {
-	font-family: Gabriela;
+a:link {
+	color: #eee	;
+}
+a:visited {
+	color: #eee	;
+}
+
+.about-me {
 	text-align: center;
 }
 
-.jumbotron .my-name {
+.about-me .proper-name {
 	margin: 50px 0;
 	font-size: 80px;
 }
 
-.jumbotron .long-desc {
+.about-me .long-desc {
 	font-size: 20px;
 }
 
 .page-sections {
-	font-family: Gabriela;
 	font-size: 20px;
+	text-align: center;
+}
+
+.footer {
 	text-align: center;
 }

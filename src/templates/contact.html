@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robert Bigaignon - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Gabriela:regular" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" media="screen">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      {% include 'header.html' %}
+      <hr>
+
+      <div class="personal-links">
+        <div class="row">
+          <a href="mailto:robert.bigaignon@gmail.com">robert.bigaignon@gmail.com</a>
+        </div>
+        <div class="row">
+          Linkedin
+        </div>
+        <div class="row">
+          github
+        </div>
+        <div class="row">
+          <a href="http://www.flickr.com/photos/bobbigaignon/" title="See my photos on Flickr!"><img src="http://l.yimg.com/g/images/goodies/white-large-chiclet.png" width="23" height="23" alt="">Flickr</a>
+        </div>
+      </div>
+
+      {% include 'footer.html' %}
+
+    </div>
+
+</html>
