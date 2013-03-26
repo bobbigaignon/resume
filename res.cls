@@ -249,8 +249,9 @@
     % do nothing
   }{%
     \leavevmode\hbox to \textwidth
-      {\hfill\vbox{\hbox{\Hut~~\@addressone}
-		   \hbox{\Telefon~~\@addresstwo}
+      {\hfill\vbox{
+       \hbox{\Hut~~\@addressone}
+		   \hbox{\Telefon~~\@phone}
        \hbox{\Letter~~\@email}
 		  }%
       }\par
@@ -508,6 +509,13 @@
 \def\email#1{\def\@email{#1}}
 
 \def\@email{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% use this to define your phone
+%
+\def\phone#1{\def\@phone{#1}}
+
+\def\@phone{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % if you want to print your name and address is a slightly
