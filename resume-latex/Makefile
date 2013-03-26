@@ -1,5 +1,5 @@
 SRC=src/RobertBigaignon.tex
-OUTDIR=/Users/robertbigaignon/Documents/Resume
+OUTDIR=../src/static/
 
 
 all:
