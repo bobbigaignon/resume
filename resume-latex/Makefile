@@ -1,4 +1,4 @@
-SRC=RobertBigaignon.tex
+SRC=src/RobertBigaignon.tex
 OUTDIR=/Users/robertbigaignon/Documents/Resume
 
 
